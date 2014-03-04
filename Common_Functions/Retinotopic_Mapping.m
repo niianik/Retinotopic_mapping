@@ -426,3 +426,5 @@ ExpmtDurSec = mod(ExpmtDur, 60);
 disp(['Cycling lasted ' num2str(ExpmtDurMin) ' minutes, ' num2str(ExpmtDurSec) ' seconds']);
 new_line;
 WaitSecs(1);
+
+disp('responses: ', Behaviour.Response);
