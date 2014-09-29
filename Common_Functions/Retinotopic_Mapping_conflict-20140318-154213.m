@@ -15,7 +15,6 @@ function Retinotopic_Mapping(Parameters, Emulate, saveVideo)
 
 
 % Create the mandatory folders if not already present 
-cd /Users/nnikolova/ownCloud/MATLABscripts/NNscripts/Retinotopic_Mapping
 if ~exist([cd '\Results'], 'dir')
     mkdir('Results');
 end
@@ -166,8 +165,7 @@ Screen('Flip', Win);
 
 %% Wait for start of experiment
 % if Emulate == 1
-%     KbWait;
-    waitForTrigger
+    KbWait;
     WaitSecs(Parameters.TR*Parameters.Dummies);
     Start_Session = GetSecs;
     CurrSlice = 0;
@@ -205,9 +203,6 @@ CurrTime = GetSecs-CyclingStart;
 countCycle=0;
 
 MovieDelay=0;
-
-CurrTime
-CyclingEnd
 
 % Loop until the end of last cycle
 while CurrTime < CyclingEnd   
@@ -465,7 +460,6 @@ clear('Apperture', 'R', 'T', 'X', 'Y');
 Parameters.Stimulus = [];
 % save(['Results\' Parameters.Session_name]);
 cd Results
-Parameters.Session_name = [Parameters.Session_name '_' DateTimeStr]
 eval(['save ', Parameters.Session_name, ' Results Behaviour triggers']);
 
 %% Experiment duration

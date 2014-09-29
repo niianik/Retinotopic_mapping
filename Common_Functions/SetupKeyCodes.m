@@ -1,13 +1,13 @@
 % Setup keycode structure for typical keys
-KeyCodes.Left = 37;
-KeyCodes.Up = 38;
-KeyCodes.Right = 39;
-KeyCodes.Down = 40;
+KeyCodes.Left = 80;
+KeyCodes.Up = 82;
+KeyCodes.Right = 79;
+KeyCodes.Down = 81;
 KeyCodes.Space = 32;
 KeyCodes.Enter = 13;
-KeyCodes.Escape = 27;
+KeyCodes.Escape = 41;
 KeyCodes.Char = [NaN*ones(1,64) 65:90 NaN*ones(1,6) 65:90];
-KeyCodes.Number = 49:57;
+KeyCodes.Number = 30:39;
 KeyCodes.Zero = 48;
 KeyCodes.Comma = 188;
 KeyCodes.Dot = 190;

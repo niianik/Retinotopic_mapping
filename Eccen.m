@@ -32,10 +32,10 @@ end
 if length(Screen('Screens'))>1
     message = 'Screen number: ';
     Parameters.Screen= input(message);
-    Parameters.Resolution=[0 0 2560 1600];%no! 1280 x 800
+    Parameters.Resolution=[0 0 1280 800];%no! 1280 x 800
 else
     Parameters.Screen=0;    % Main screen
-    Parameters.Resolution=[0 0 1280 800];% [0 0 1440 900];   % Resolution %need to modify checkerboard size in gencheckerboard to = resolution height
+    Parameters.Resolution=[0 0 1440 900];% [0 0 1440 900];   % Resolution %need to modify checkerboard size in gencheckerboard to = resolution height
 end
 Parameters.Foreground=[0 0 0];  % Foreground colour
 Parameters.Background=[127 127 127];    % Background colour
@@ -43,10 +43,10 @@ Parameters.FontSize = 15;   % Size of font
 Parameters.FontName = 'Helvetica';  % Font to use
 
 %% Scanner parameters
-Parameters.TR=3.0;    % Seconds per volume
-Parameters.Number_of_Slices=36; % Number of slices
+Parameters.TR=3.0;      % Seconds per volume
+Parameters.Number_of_Slices=30; % Number of slices
 Parameters.Dummies=4;   % Dummy volumes
-Parameters.Overrun=0;   % Dummy volumes at end
+Parameters.Overrun=5;   % Dummy volumes at end
 
 %% Experiment parameters
 Parameters.Cycles_per_Expmt=8;  % Stimulus cycles per run
@@ -69,4 +69,5 @@ Parameters.Instruction='Welcome!\n\nPress button when there is a jump!';
 [Parameters.Session Parameters.Session_name]=CurrentSession([Subj '_Eccen' Direc]); % Determine current session
 
 %% Run the experiment
+
 Retinotopic_Mapping(Parameters, Emul,saveVideo);

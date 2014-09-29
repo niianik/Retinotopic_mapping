@@ -25,10 +25,10 @@ end
 if length(Screen('Screens'))>1
     message = 'Screen number: ';
     Parameters.Screen= input(message);
-    Parameters.Resolution=[0 0 2560 1600];
+    Parameters.Resolution=[0 0 1280 800];
 else
     Parameters.Screen=0;    % Main screen
-    Parameters.Resolution=[0 0 1280 800];%[0 0 1440 900];   % Resolution
+    Parameters.Resolution=[0 0 1440 900];%[0 0 1440 900];   % Resolution
 end
 Parameters.Foreground=[0 0 0];  % Foreground colour
 Parameters.Background=[127 127 127];    % Background colour
@@ -36,17 +36,17 @@ Parameters.FontSize = 15;   % Size of font
 Parameters.FontName = 'Helvetica';  % Font to use
 
 %% Scanner parameters
-Parameters.TR=3;    % Seconds per volume
+Parameters.TR=3;        % Seconds per volume
 Parameters.Number_of_Slices=30; % Number of slices
 Parameters.Dummies=4;   % Dummy volumes
-Parameters.Overrun=0;   % Dummy volumes at end
+Parameters.Overrun=5;   % Dummy volumes at end
 
 %% Experiment parameters
 Parameters.Cycles_per_Expmt=8;  %8 Stimulus cycles per run
 Parameters.Vols_per_Cycle=10;   % Volumes per cycle 
 Parameters.Prob_of_Event=0.05;  % Probability of a jerk event
 Parameters.Event_Duration=0.2;  % Duration of a jerk event
-Parameters.Event_Size=2.5;  % Size of jerk event in degrees
+Parameters.Event_Size=2.5;      % Size of jerk event in degrees
 Parameters.Apperture='Wedge';   % Stimulus type
 Parameters.Apperture_Width=40;  % Width of wedge in degrees
 Parameters.Direction=Direc; % Direction of cycling
@@ -62,4 +62,5 @@ Parameters.Instruction='Welcome!\n\nPress button when there is a jump!';
 [Parameters.Session Parameters.Session_name]=CurrentSession([Subj '_Polar' Direc]); % Determine current session
 
 %% Run the experiment
+% waitForTrigger
 Retinotopic_Mapping(Parameters, Emul,saveVideo);
