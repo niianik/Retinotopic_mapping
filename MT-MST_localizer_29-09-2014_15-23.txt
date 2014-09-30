@@ -1,0 +1,48 @@
+totalFrames: 0 
+ totalTimeSec: 73.46   avgFramesPerSec: 0.00 
+
+ NofTrials: 0
+
+Cycle: 1   StartTimeSec: 0.00    StartFrame: 0
+Cycle: 2   StartTimeSec: 0.00    StartFrame: 0
+Cycle: 3   StartTimeSec: 0.00    StartFrame: 0
+Cycle: 4   StartTimeSec: 0.00    StartFrame: 0
+
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
+
+TrialNo: 0     TaskOnsetSec: 0.00      TaskOnsetFrames: 0     TaskDurationSec: 0.00     Angle: 0.00    Scale: 0.00    Cycle: 0
